@@ -2,7 +2,7 @@ name: Deploy to AKS using Helm
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   deploy:
