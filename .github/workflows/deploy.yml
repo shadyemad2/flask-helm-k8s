@@ -32,6 +32,6 @@ jobs:
 
       - name: Deploy using Helm
         run: |
-          helm upgrade --install flask-app ./helm \
+          helm upgrade --install flask-app ./flask-chart \
             --namespace shady-ns \
             --create-namespace
