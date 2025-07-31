@@ -2,18 +2,23 @@
 
 This project demonstrates how to deploy a Flask application on a Kubernetes cluster using **Helm** and automate the deployment using **GitHub Actions**.
 
+<img width="942" height="539" alt="hellllllllllllllllllllllllm" src="https://github.com/user-attachments/assets/519c5378-a438-4572-889d-4f29cdd369af" />
+
 ---
 
 ## 📸 Screenshots
 
 ### ✅ Deployed App UI
-![App Screenshot](screenshots/app.png)
+
+<img width="1907" height="903" alt="flask-app" src="https://github.com/user-attachments/assets/f825cb97-798e-49f7-8c91-74f45c895c2c" />
 
 ### ⚙️ GitHub Actions Trigger
-![Trigger Screenshot](screenshots/trigger.png)
+
+<img width="1780" height="834" alt="trigger-action" src="https://github.com/user-attachments/assets/20e1ae0e-7b8a-4831-bf87-ae7a4c94686b" />
 
 ### 📦 Docker Image on Docker Hub
-![Docker Image Screenshot](screenshots/image.png)
+
+<img width="1290" height="550" alt="image" src="https://github.com/user-attachments/assets/e13bea44-e631-443d-93f7-f4755d42e9c4" />
 
 ---
 
@@ -57,21 +62,6 @@ helm upgrade --install flask-app ./flask-chart \
   --namespace shady-ns \
   --create-namespace
 ```
-
----
-
-## ✅ GitHub Actions Status
-
-![Deployment Status](https://github.com/shadyemad2/flask-helm-k8s/actions/workflows/deploy.yml/badge.svg)
-
----
-
-## 📌 Notes
-
-- Make sure to upload the following screenshots in `screenshots/` folder:
-  - `app.png` (deployed app UI)
-  - `trigger.png` (screenshot of triggered GitHub Actions run)
-  - `image.png` (DockerHub image page)
 
 ---
 
